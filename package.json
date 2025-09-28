@@ -5,7 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "demo": "node scripts/quick-demo.mjs",
+    "ai-demo": "node scripts/ai-integration-demo.mjs",
+    "test:mcp": "node scripts/test-examples.mjs",
+    "test:client": "node scripts/test-client.mjs",
+    "test:http": "node scripts/test-streamable-http-client.mjs",
+    "ui": "echo '访问 http://localhost:3000 查看前端界面'"
   },
   "dependencies": {
     "mcp-handler": "^1.0.1",
